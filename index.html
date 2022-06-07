@@ -1,119 +1,195 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Camilo_Bernal</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="Description" lang="es" content="open source html and css template">
-<meta name="author" content="mlp design">
-<meta name="robots" content="index, follow">
-<link rel="stylesheet" href="D:\Documentos\GitHub\DSW_Camilo_Bernal\Fase 3\CCS\styles.css">
-<link rel="stylesheet" href="D:\Documentos\GitHub\DSW_Camilo_Bernal\Fase 3\CCS\slidy.css">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Camilo_Bernal</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Description" lang="es" content="open source html and css template">
+	<meta name="author" content="mlp design">
+	<meta name="robots" content="index, follow">
+	<link rel="stylesheet" href="CCS\styles.css">
+	<link rel="stylesheet" href="CCS\slidy.css">
 </head>
+
 <body>
-<div id="menu">
-<nav>
-<input type="checkbox" id="show-menu" role="button">
-<label for="show-menu" class="open"><span class="fa fa-bars"></span></label>
-<label for="show-menu" class="close"><span class="fa fa-times"></span></label>
-<ul id="topnav">  
-<li><a href="D:\Documentos\GitHub\DSW_Camilo_Bernal\Fase 3\index.html">Inicio</a></li>
-<li><a href="#">Temas</a></li>
-     <ul class="submenu">
-	 <li><a href="D:\Documentos\GitHub\DSW_Camilo_Bernal\Fase 3\tema1.html">Tema 1</a></li>
-	 <li><a href="D:\Documentos\GitHub\DSW_Camilo_Bernal\Fase 3\tema2.html">Tema 2</a></li>
-     </ul>
-<li><a href="#">Recursos Digitales</a></li>
-<li><a href="#">Aprendizaje</a></li>
-<li>
-	<ul>
-	<li><a href="https://es-la.facebook.com/"><i class="fa fa-facebook"></i></a></li>
-	<li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
-	<li><a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D"><i class="fa fa-twitter"></i></a></li>
-	</ul>
-</li>
-</ul>
-</nav>
-</div>
-<div id="container">
-<div id="pageheader">
-<h1>Programacion con HTML</h1>
-<p> Camilo Bernal</p>
-</div>
 
-<div class="section">
-<div class="pageitem">
-<div id="slider">
-<figure>
-<img src="http://lorempixel.com/g/680/300/people/1" alt>
-<img src="http://lorempixel.com/g/680/300/nature/1" alt>
-<img src="http://lorempixel.com/g/680/300/city/1" alt>
-<img src="http://lorempixel.com/g/680/300/people/1" alt> 
-</figure>
-</div>
-</div>
-</div>
+	<div id="menu">
+		<nav>
+			<input type="checkbox" id="show-menu" role="button">
+			<label for="show-menu" class="open"><span class="fa fa-bars"></span></label>
+			<label for="show-menu" class="close"><span class="fa fa-times"></span></label>
+			<ul id="topnav">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="#">Temas</a></li>
+				<ul class="submenu">
+					<li><a href="tema1.html">Tema 1</a></li>
+					<li><a href="tema2.html">Tema 2</a></li>
+				</ul>
+				<li><a
+						href="https://es.wikipedia.org/wiki/Atributo_HTML#:~:text=Los%20atributos%20de%20HTML%20son,tipo%20de%20elemento%20de%20HTML.">Recursos
+						Digitales</a></li>
+				<li><a href="evaluacion1.html">Evaluación</a></li>
+				<ul class="submenu">
+					<li><a href="evaluacion1.html">Evaluacion 1</a></li>
+					<li><a href="evaluacion2.html">Evaluacion 2</a></li>
+				</ul>
+				<li><a href="https://www.arkaitzgarro.com/xhtml/capitulo-3.html">Aprendizaje</a></li>
+				<li>
+					<ul>
+						<li><a href="https://es-la.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+						<li><a
+								href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D"><i
+									class="fa fa-twitter"></i></a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<div id="container">
+		<div id="pageheader">
+			<h1>Programacion con HTML</h1>
+			<p> Camilo Bernal</p>
+		</div>
 
-<div class="section">
-<div class="pageitem">
-<div class="col">
-<h2>ATRIBUTOS HTML </h2> <figure>
-	<img src="img\LOGO.png" alt="Logo"/>
-</figure>
-<p>Los atributos de HTML son palabras especiales utilizadas dentro de la etiqueta de apertura, para controlar el comportamiento del elemento.<a href="#">Los atributos de HTML son un modificador de un tipo de elemento de HTML.</a>,   Un atributo tampoco modifica la funcionalidad por defecto de un tipo de elemento o proporciona funcionalidad a ciertos tipos de elementos incapaces de funcionar correctamente sin ellos. En sintaxis HTML, un atributo se añade a una etiqueta de inicio de HTML.Se han reconocido varios tipos de atributos básicos, incluyendo: (1) atributos requeridos, necesitados por un tipo de elemento particular, para que aquel tipo de elemento funcione correctamente; (2) atributos opcionales, utilizados para modificar la funcionalidad por defecto de un tipo de elemento; (3) atributos estándares, soportados por muchos tipos de elementos; y (4) atributos de evento, utilizados para causar que los tipos de elemento especifiquen guiones o script para ser ejecutados bajo circunstancias concretas</p>
-</div>
-<div class="col">
-<h2>ATRIBUTOS COMUNES</h2><figure>
-	<img src="img\atributos.JFIF" alt="Img"/>
-</figure>
-<p>El atributo id (identidad) proporciona un identificador único en el ámbito de todo el documento para un elemento.Este puede ser utilizado como selector CSS para proporcionar propiedades presentationales, por los navegadores para centrar la atención en el elemento concreto, o por scripts (guiones) para alterar los contenidos o la presentación de un elemento. Anexado a la URL de la página, la URL directamente apunta el elemento concreto dentro del documento, típicamente una sub-sección de la página.</p>
-</div>
-</div>
-</div>
+		<div class="section">
+			<div class="pageitem">
+				<div id="slider">
+					<figure>
+						<img src="http://lorempixel.com/g/680/300/people/1" alt>
+						<img src="http://lorempixel.com/g/680/300/nature/1" alt>
+						<img src="http://lorempixel.com/g/680/300/city/1" alt>
+						<img src="http://lorempixel.com/g/680/300/people/1" alt>
+					</figure>
+				</div>
+			</div>
+		</div>
 
-<div class="section">
-<div class="pageitem">
-<h2>ATRIBUTO CLASS</h2>
-<p>El atributo class proporciona una manera de clasificar elementos similares.Esto puede ser utilizado para propósitos semánticos, o para propósitos de presentación. Semantically, por ejemplo, las clases se utilizan en microformatos. Presentacionalmente, por ejemplo, un documento HTML podría utilizar la designaciónclass="notation" , para indicar que todos los elementos con esta clase de valor están subordinados al texto principal del documento. Tales elementos podrían ser reunidos juntos y presentados como notas al pie en una página, en vez de aparecer en el sitio donde se encuentran en la fuente de HTML. Otro uso sería como selector CSS.</p><p>Un autor puede utilizar propiedades no presentacionales de código atribucional de style para un elemento particular.El atributo de estilo se puede utilizar en cualquier elemento de HTML ( se validará en cualquier elemento HTML; aun así, no es necesariamente útil). Se consiera mejor práctica usar los atributos iddo classde un elemento para seleccionar el elemento con una stylesheet (hoja de estilo), aunque a veces esto puede ser demasiado pesado para una aplicación de propiedades de estilo simple y específico o ad hoc.</p>
-</div>
-</div>
+		<div class="section">
+			<div class="pageitem">
+				<div class="col">
+					<h2>ATRIBUTOS HTML </h2>
+					<figure>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/7T3xWP7ep5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</figure>
+					<p>Los atributos de HTML son palabras especiales utilizadas dentro de la etiqueta de apertura, para
+						controlar el comportamiento del elemento.<a href="#">Los atributos de HTML son un modificador de
+							un tipo de elemento de HTML.</a>, Un atributo tampoco modifica la funcionalidad por defecto
+						de un tipo de elemento o proporciona funcionalidad a ciertos tipos de elementos incapaces de
+						funcionar correctamente sin ellos. En sintaxis HTML, un atributo se añade a una etiqueta de
+						inicio de HTML.Se han reconocido varios tipos de atributos básicos, incluyendo: (1) atributos
+						requeridos, necesitados por un tipo de elemento particular, para que aquel tipo de elemento
+						funcione correctamente; (2) atributos opcionales, utilizados para modificar la funcionalidad por
+						defecto de un tipo de elemento; (3) atributos estándares, soportados por muchos tipos de
+						elementos; y (4) atributos de evento, utilizados para causar que los tipos de elemento
+						especifiquen guiones o script para ser ejecutados bajo circunstancias concretas</p>
+				</div>
+				<div class="col">
+					<h2>ATRIBUTOS COMUNES</h2>
+					<figure>
+						<img src="img\atributos.JFIF" alt="Img" />
+					</figure>
+					<p>El atributo id (identidad) proporciona un identificador único en el ámbito de todo el documento
+						para un elemento.Este puede ser utilizado como selector CSS para proporcionar propiedades
+						presentationales, por los navegadores para centrar la atención en el elemento concreto, o por
+						scripts (guiones) para alterar los contenidos o la presentación de un elemento. Anexado a la URL
+						de la página, la URL directamente apunta el elemento concreto dentro del documento, típicamente
+						una sub-sección de la página.</p>
+				</div>
+			</div>
+		</div>
 
-<div class="section">
-<div class="pageitem">
-<div class="col">
-<h2>Selectores de clase</h2>
-<p> En un documento HTML, los selectores de clase buscan un elemento basado en el contenido de su atributo class. El atributo class está definido como una lista de elementos separados por espacio, y uno de esos elementos debe coincidir exactamente con el nombre de clase dado en el selector. </p><p>El atributo global class es una lista de las clases del elemento separada por espacios . Las clases permiten a CSS y Javascript seleccionar y acceder a elementos específicos a través de los selectores de clase o funciones como el método document.</p>
-</div>
-<div class="col">
-<h2>Bootstrap (framework)</h2>
-<p>Bootstrap es una biblioteca multiplataforma o conjunto de herramientas de código abierto para diseño de sitios y aplicaciones web. Contiene plantillas de diseño con tipografía, formularios, botones, cuadros, menús de navegación y otros elementos de diseño basado en HTML y CSS, así como extensiones de JavaScript adicionales. A diferencia de muchos frameworks web, solo se ocupa del desarrollo front-end. </p><p>"...un grupo súper pequeño de desarrolladores y yo nos reunimos para diseñar y construir una nueva herramienta interna y vimos la oportunidad de hacer algo más. A través de ese proceso, nos vimos construyendo algo mucho más sustancial que otra herramienta interna. Meses después terminamos con una primera versión de Bootstrap como una manera de documentar y compartir activos y patrones de diseño comunes dentro de la compañía."</p>
-</div>
-<div class="col">
-<h2>Caracteristicas</h2>
-<p>Bootstrap tiene un soporte relativamente incompleto para HTML5 y CSS3, pero es compatible con la mayoría de los navegadores web. La información básica de compatibilidad de sitios web o aplicaciones está disponible para todos los dispositivos y navegadores. Existe un concepto de compatibilidad parcial que hace disponible la información básica de un sitio web para todos los dispositivos y navegadores. Por ejemplo, las propiedades introducidas en CSS3 para las esquinas redondeadas, gradientes y sombras son usadas por Bootstrap a pesar de la falta de soporte de navegadores antiguos. Esto extiende la funcionalidad de la herramienta, pero no es requerida para su uso.
+		<div class="section">
+			<div class="pageitem">
+				<h2>ATRIBUTO CLASS</h2>
+				<p>El atributo class proporciona una manera de clasificar elementos similares.Esto puede ser utilizado
+					para propósitos semánticos, o para propósitos de presentación. Semantically, por ejemplo, las clases
+					se utilizan en microformatos. Presentacionalmente, por ejemplo, un documento HTML podría utilizar la
+					designaciónclass="notation" , para indicar que todos los elementos con esta clase de valor están
+					subordinados al texto principal del documento. Tales elementos podrían ser reunidos juntos y
+					presentados como notas al pie en una página, en vez de aparecer en el sitio donde se encuentran en
+					la fuente de HTML. Otro uso sería como selector CSS.</p>
+				<p>Un autor puede utilizar propiedades no presentacionales de código atribucional de style para un
+					elemento particular.El atributo de estilo se puede utilizar en cualquier elemento de HTML ( se
+					validará en cualquier elemento HTML; aun así, no es necesariamente útil). Se consiera mejor práctica
+					usar los atributos iddo classde un elemento para seleccionar el elemento con una stylesheet (hoja de
+					estilo), aunque a veces esto puede ser demasiado pesado para una aplicación de propiedades de estilo
+					simple y específico o ad hoc.</p>
+			</div>
+		</div>
 
-	Desde la versión 2.0 también soporta diseños web adaptables. Esto significa que el diseño gráfico de la página se ajusta dinámicamente, tomando en cuenta las características del dispositivo usado (computadoras, tabletas o teléfonos móviles).</p>
-</div>
-</div>
-</div>
+		<div class="section">
+			<div class="pageitem">
+				<div class="col">
+					<h2>Selectores de clase</h2>
+					<p> En un documento HTML, los selectores de clase buscan un elemento basado en el contenido de su
+						atributo class. El atributo class está definido como una lista de elementos separados por
+						espacio, y uno de esos elementos debe coincidir exactamente con el nombre de clase dado en el
+						selector. </p>
+					<p>El atributo global class es una lista de las clases del elemento separada por espacios . Las
+						clases permiten a CSS y Javascript seleccionar y acceder a elementos específicos a través de los
+						selectores de clase o funciones como el método document.</p>
+				</div>
+				<div class="col">
+					<h2>Bootstrap (framework)</h2>
+					<p>Bootstrap es una biblioteca multiplataforma o conjunto de herramientas de código abierto para
+						diseño de sitios y aplicaciones web. Contiene plantillas de diseño con tipografía, formularios,
+						botones, cuadros, menús de navegación y otros elementos de diseño basado en HTML y CSS, así como
+						extensiones de JavaScript adicionales. A diferencia de muchos frameworks web, solo se ocupa del
+						desarrollo front-end. </p>
+					<p>"...un grupo súper pequeño de desarrolladores y yo nos reunimos para diseñar y construir una
+						nueva herramienta interna y vimos la oportunidad de hacer algo más. A través de ese proceso, nos
+						vimos construyendo algo mucho más sustancial que otra herramienta interna. Meses después
+						terminamos con una primera versión de Bootstrap como una manera de documentar y compartir
+						activos y patrones de diseño comunes dentro de la compañía."</p>
+				</div>
+				<div class="col">
+					<h2>Caracteristicas</h2>
+					<p>Bootstrap tiene un soporte relativamente incompleto para HTML5 y CSS3, pero es compatible con la
+						mayoría de los navegadores web. La información básica de compatibilidad de sitios web o
+						aplicaciones está disponible para todos los dispositivos y navegadores. Existe un concepto de
+						compatibilidad parcial que hace disponible la información básica de un sitio web para todos los
+						dispositivos y navegadores. Por ejemplo, las propiedades introducidas en CSS3 para las esquinas
+						redondeadas, gradientes y sombras son usadas por Bootstrap a pesar de la falta de soporte de
+						navegadores antiguos. Esto extiende la funcionalidad de la herramienta, pero no es requerida
+						para su uso.
+
+						Desde la versión 2.0 también soporta diseños web adaptables. Esto significa que el diseño
+						gráfico de la página se ajusta dinámicamente, tomando en cuenta las características del
+						dispositivo usado (computadoras, tabletas o teléfonos móviles).</p>
+				</div>
+			</div>
+		</div>
 
 
 
-<div class="section">
-<div id="credits">
-    <div class="col"><p>Random by ekmilo@hotmail.com.</p></div>
-    <div class="col"><p><a href="#">Privacy ECB</a> | <a href="#">Support @Camilo_Bernal</a> | <a href="#">Ing. Sistemas</a></p></div>
+		<div class="section">
+			<div id="credits">
+				<div class="col">
+					<p>Random by ekmilo@hotmail.com.</p>
+				</div>
+				<div class="col">
+					<p><a href="#">Privacy ECB</a> | <a href="#">Support @Camilo_Bernal</a> | <a href="#">Ing.
+							Sistemas</a></p>
+				</div>
 
-<!-- This part has to be kept intact under the CC-NC Licence -->
-    <div class="col"><p><a href="http://mlpdesign.net">HTML & CSS</a> by Camilo_Bernal</p></div>
-<!-- CC-NC Licence credit ends here -->
-<h5>Mi mockup</h5>
-    <img src="D:\Documentos\GitHub\DSW_Camilo_Bernal\Fase 3\img\html.jpg" alt="Esta es la imagen del mockup">
-    <footer> <h3>Edgar Camilo Bernal Rojas <br> Ingenieria Sistemas , 20/05/2022 <br> ecbernalr@unadvirtual.edu.co <br> Saludos, <br>ECB </h3></footer>
-</div>
-</div>
+				<!-- This part has to be kept intact under the CC-NC Licence -->
+				<div class="col">
+					<p><a href="http://mlpdesign.net">HTML & CSS</a> by Camilo_Bernal</p>
+				</div>
+				<!-- CC-NC Licence credit ends here -->
+				<h5>Mi mockup</h5>
+				<img src="img\html.jpg" alt="Esta es la imagen del mockup">
+				<footer>
+					<h3>Edgar Camilo Bernal Rojas <br> Ingenieria Sistemas , 20/05/2022 <br>
+						ecbernalr@unadvirtual.edu.co <br> Saludos, <br>ECB </h3>
+				</footer>
+			</div>
+		</div>
 
-</div>
+	</div>
 </body>
+
 </html>
